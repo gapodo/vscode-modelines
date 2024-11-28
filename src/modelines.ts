@@ -234,6 +234,7 @@ function translateLanguageName(lang: string|undefined): string {
 		case 'csh':
 		case 'bash':
 			return 'shellscript';
+		case 'make':
 		case 'makefile-gmake':
 			return 'makefile';
 		default:
